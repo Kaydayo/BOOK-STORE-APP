@@ -9,8 +9,8 @@
 5. CSS3
 
 ## Screenshots:
-  [!Screenshot1]("screenshot1.png")
-  [!Screenshot2]("screenshot2.png")
+  ![Screenshot1](screenshot1.png)
+  ![Screenshot2](screenshot2.png)
 
 
 ## CRUD OPERATIONS
