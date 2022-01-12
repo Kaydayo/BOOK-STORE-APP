@@ -1,22 +1,25 @@
-# week-6-NODE-009-POD-B
+# BOOK-APP
 # EXPRESS 
 
-### Setup
-1. Your are required to use TypeScript for the task
-2. Use and setup the project with `Yarn`
+### Techmologies
+1. Typescript
+2. Express
+3. Mongodb
+4. Html5
+5. CSS3
 
-## Problem Description:
+## Screenshots:
+  [!Screenshot1]("screenshot1.png")
+  [!Screenshot2]("screenshot2.png")
 
-Create A basic Express application, that makes a CRUD operation (create, read, update, delete) into a file database.json, document and publish your endpoints using postman.
 
-## How will I complete this project?
-- Your aplication should be able to perform.
+## CRUD OPERATIONS
+- BASIC CRUD .
   - `GET` Request which returns all the data in your database.json data
   - `POST` Request which adds data to your database.json file (Note: If there is no database.json on post, create one dynamically).
   - `PUT` Request which updates fields of a particular data using the id in database.json
   - `DELETE` Request which removes a particular data from your database.json using the id
-- Host your application on Heroku
-- Data format example:
+
 
 ```javascript
 [
@@ -46,7 +49,7 @@ Create A basic Express application, that makes a CRUD operation (create, read, u
 ]
 ```
 ## Test coverage
-- Make sure you write test to cover your application using supertest
+- Testing was covered using supertest
 
 ### Test
 - Test for a GET request
@@ -55,10 +58,4 @@ Create A basic Express application, that makes a CRUD operation (create, read, u
 - Test for a DELETE request
 - Test to return proper HTTP status codes
 
-### FRONTEND TASK
-- Implement a frontend for your api.
-- Your frontend should have a page that displays all authors in your database with a button to add author, 
-button to delete an author from the database, 
-button to edit author
-- A page for a single author showing the books of that author with a button to add books for that author, 
-button to delete a book
+
